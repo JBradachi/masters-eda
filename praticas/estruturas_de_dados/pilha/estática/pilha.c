@@ -20,7 +20,7 @@ ITEM desempilha(PilhaEstatica *L){
 
 
 int vazia(PilhaEstatica *L){
-    if(L->comeco != L->fim) return false; 
+    if(L->comeco != 0) return false; 
     printf("Lista vazia");
     return true;
 };
